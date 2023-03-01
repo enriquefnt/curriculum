@@ -14,24 +14,24 @@ div {
     border: 0.1em solid black;
     padding: 1em;
     background-color: rgb(85, 185, 130);
-
+    align-content: space-around;
     }
 
     img {
-    display: inline-flex;
+    display: inline;
     max-width: 10em;
     height: auto;
 }
-    h1 { 
+   h1 { 
         display: inline;
-        color: rgb(58, 58, 66);
-        font-size: 1.7em;
-        margin-top: 0.01em;
-        margin-bottom: 0.9em;
-        margin-left: 1em;
-        margin-right: 0;
+        color: rgb(0, 0, 114);
+        font-size: 1.8em;
+      
+        margin-left: 0.5em; 
+        margin-bottom: 5px; 
         font-weight: bold;
-        border-bottom: 0.5em solid rgb(8, 53, 3);
+        border-bottom: 0.3em solid rgb(8, 53, 3);
+        border-top: 0.3em solid rgb(8, 53, 3);
     }
  h2 { 
         display: block;
@@ -63,5 +63,5 @@ ul li {
 }
 
 .borde {
-    border-bottom: 5px solid rgb(12, 75, 38);
+    border-bottom: 1em solid rgb(12, 75, 38);
 }
